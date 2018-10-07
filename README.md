@@ -1,6 +1,6 @@
 # Beast-Gang [BOT]
 
-<div style="text-align:center">[beast-gang](https://imgur.com/YxN551T.png)</div>
+[center][beast-gang](https://imgur.com/YxN551T.png)[/center]
 
 This is the official [BOT](https://discordapp.com/oauth2/authorize?client_id=494108385893941261&scope=bot&permissions=0) for discord.
 
