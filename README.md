@@ -1,6 +1,6 @@
 # Beast-Gang [BOT]
 
-![beast-gang](http://www.noelshack.com/2018-40-7-1538929499-logo-bg3.png)
+![beast-gang](https://imgur.com/PwpRaG4)
 
 This is the official [BOT](https://discordapp.com/oauth2/authorize?client_id=494108385893941261&scope=bot&permissions=0) for discord.
 
