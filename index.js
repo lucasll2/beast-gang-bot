@@ -4,12 +4,12 @@ const cfg require('./index.json'); // a garder en version desktop
 const token = process.env.token // a garder en version heroku
 const prefix = ("?");
 
-client.on('ready', function () {
+bot.on('ready', function () {
     console.log("Je suis prêt à être utilisé.")
     bot.user.setActivity('rien').catch(console.error)
 });
 
-client.on('guildMemberAdd', member => {
+bot.on('guildMemberAdd', member => {
     member.createDM().then(channel => {
         return channel.send('Bienvenue le discord de la team Beast-gang' + member.displayName)
         console.log(`${member.displayName} à rejoind le serveur.`)
@@ -19,14 +19,14 @@ client.on('guildMemberAdd', member => {
 const ban = require('./kick et ban/ban');
 
 
-client.on('message', function (message){
+bot.on('message', function (message){
     if (ban.match(message)){
         return ban.action(message)
     }
 });
 
 
-client.on('message', msg => {
+bot.on('message', msg => {
     if (msg.content === "bonjour"){
         msg.reply("Heureux de te revoir parmis nous.")
     }
@@ -40,5 +40,5 @@ client.on('message', msg => {
 
 });
 
-client.login(cfg.token); //a garder en version desktop
-client.login(token); //a garder en version heroku
+bot.login(cfg.token); //a garder en version desktop
+bot.login(token); //a garder en version heroku
