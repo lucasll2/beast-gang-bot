@@ -1,6 +1,6 @@
 # Beast-Gang [BOT]
 
-![beast-gang](https://imgur.com/PwpRaG4)
+![beast-gang](https://imgur.com/PwpRaG4.png)
 
 This is the official [BOT](https://discordapp.com/oauth2/authorize?client_id=494108385893941261&scope=bot&permissions=0) for discord.
 
